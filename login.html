@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="ru" class="h-100">
+<head>
+    <title>Mordor RP - GTA SAMP на телефоне Android</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="samp,mordor,RP,RolePlay,role play,android,gta,самп на андроид,самп на телефон" />
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="assets/images/favicon.png@r=1" type="image/png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-context-min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"  href="assets/css/style.css" >
+    </head>
+<body id="body" class="d-flex flex-column h-100   bg-body-color ">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-head">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo">
+                    <img src="assets/images/img/logo.svg" width="62">
+                </div>
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" id="" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="donate.html">Магазин</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-scroll"  href="index.html#howtoplay" >С чего начать?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forum.mordor-rp.ru">Форум</a>
+                    </li>
+                </ul>
+                <a href="login.html#" class="social-btn-youtube">
+                    <!--<i class="fab fa-youtube"></i>-->
+                    <img src="assets/images/img/social-youtube.svg" class="header-top-mobile-nav">
+                </a>
+                <a href="https://vk.com/mordormobile" class="social-btn-vk">
+                    <!--<i class="fab fa-vk"></i>-->
+                    <img src="assets/images/img/social-vk.svg" class="header-top-mobile-nav">
+                </a>
+                                <form action="login.html" class="header-top-mobile-nav">
+                    <button type="submit" class="btn btn-danger btn-sub-enter btn-sm btn-all-red">Личный кабинет</button>
+                </form>
+                <form action="login.html#" class="header-top-mobile-nav">
+                                            <button type="button" onclick="setTheme()" class="btn btn-dark btn-sm d-lg-none d-md-block d-sm-block btn-theme" style="border-radius: 12px">Тёмный режим</button>
+                                    </form>
+                            </div>
+        </div>
+    </nav>
+
+    </header>
+
+<main class="   ">
+
+    <div class="login">
+        <div class="container bg-login-custom-one">
+        <div style="backdrop-filter: blur(12px);">
+            <div class="bg-login-custom-two">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <form action="login.html" method="POST" class="recaptcha_form">
+                        <h1>Авторизация</h1>
+
+                        <input type="hidden" name="_token" value="25243882708eed720265ebc7dbff094b">                        
+                        <div class="form-group" style="margin-top: 10px;">
+                            <label>Выберите сервер</label>
+                            <select class="form-control" name="server">
+                                <option value="1">Mordor RP #1</option>
+                                <option value="2">Mordor RP #2</option>
+                                <option value="3">Mordor RP #3</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Логин</label>
+                            <input type="text" name="login" class="form-control" placeholder="Введите никнейм или email">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Пароль</label>
+                            <input type="password" name="password" class="form-control" placeholder="Введите пароль">
+                        </div>
+
+                        <div class="text-center" style="margin-top: 20%;">
+                            <button type="submit" class="btn btn-danger btn-sub-enter btn-sm btn-all-red">Войти</button>
+                            <a href="restore.html" class="btn btn-secondary btn-sm btn-sub-restore" style="margin: 10px;padding-top: 10px;">Восстановить доступ</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+    </main>
+
+<footer class="mt-auto footer-colors">
+    <div class="footer-bottom">
+        <div class="container">
+            <nav class="row">
+                <div class="d-none d-lg-block">
+                    <img src="assets/images/img/logo.svg" width="52">
+                </div>
+                <div class="container col-lg-4 col-6">
+                    <nav class="row m-0">
+                        <ul class="col-lg-6 col-12 navbar-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link footer-text">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://forum.mordor-rp.ru" class="nav-link footer-text">Форум</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  href="index.html#howtoplay"  class="nav-link nav-scroll footer-text">Начать играть</a>
+                            </li>
+                        </ul>
+                        <ul class="col-lg-6 col-12 navbar-nav">
+                            <li class="nav-item">
+                                <a href="https://vk.com/mordor_technical" class="nav-link footer-text">Тех.поддержки</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="donate.html" class="nav-link footer-text">Донат</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="login.html" class="nav-link footer-text">Личный кабинет</a>
+                            </li>
+                            <li>
+                                                                    <button type="submit" onclick="setTheme()" class="btn btn-dark btn-sm btn-theme" style="border-radius: 12px">Тёмный режим</button>
+                                                            </li>
+                            <li class="nav-item theme-btn-padding">
+                                <img src="assets/images/img/card-system.svg" width="159" height="56">
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <ul class="col-lg-6 col-6 navbar-nav">
+                    <li class="nav-item">
+                        <a href="https://vk.com/mordormobile" class="social-btn-vk">
+                            <img src="assets/images/img/social-vk.svg">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <p style="color: #9D9D9D;font-size: 15px;font-weight: 600;margin-bottom: -5px;margin-top: 10px;">Почта</p>
+                        <a href="https://vk.com/mordormobile" class="" style="color: #9D9D9D;font-size: 14px;font-weight: 600;">bubassgame@gmail.com</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="documents/agreement.pdf" class="nav-link footer-text" style="color: #9D9D9D;font-size: 15px;">Договор оферты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="documents/disclaimer.pdf" class="nav-link footer-text" style="color: #9D9D9D;font-size: 15px;">Положение об отказе от ответственности и гарантий</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="documents/privacy.pdf" class="nav-link footer-text" style="color: #9D9D9D;font-size: 15px;">Политика конфиденциальности</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="assets/js/clipboard.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/common.js"></script>
+
+<script>
+
+    function setTheme() {
+        if (getCookie("theme") == 0) {
+            setcookie("theme", "1", 365);
+        } else {
+            setcookie("theme", "0", 365);
+        }
+        document.location.reload();
+    }
+
+    function setcookie(name, value, days)
+    {
+      if (days)
+      {
+        var date = new Date();
+        date.setTime(date.getTime()+days*24*60*60*1000); // ) removed
+        var expires = "; expires=" + date.toGMTString(); // + added
+      }
+      else
+        var expires = "";
+      document.cookie = name+"=" + value+expires + ";path=/"; // + and " added
+    }
+
+    function getCookie(name) {
+      let matches = document.cookie.match(new RegExp(
+        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+      ));
+      return matches ? decodeURIComponent(matches[1]) : undefined;
+    }
+</script>
+
+<script type="application/ld+json">
+{
+  "@context" : "https://schema.org",
+  "@type" : "Organization",
+  "name" : "Mordor RP",
+  "url" : "https://mordor-rp.ru",
+  "sameAs" : [
+    "https://vk.com/mordormobile"
+  ]
+}
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LeKztgUAAAAAL69ewc4RPBV3KHZlZdB2n876cZf"></script>
+<script>
+    $('.recaptcha_form').submit(function(event) {
+        event.preventDefault();
+
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LeKztgUAAAAAL69ewc4RPBV3KHZlZdB2n876cZf', {action: 'login'}).then(function(token) {
+                $('.recaptcha_form').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+                $('.recaptcha_form').unbind('submit').submit();
+            });
+        });
+    });
+</script>
+</body>
+</html>
